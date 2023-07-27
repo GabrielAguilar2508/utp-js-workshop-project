@@ -323,18 +323,6 @@ body {
   display: block;
 }
 
-.footer-columns {
-  background-color: transparent;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.footer-column {
-  flex-basis: calc(33.33% - 20px);
-  margin-bottom: 20px;
-}
-
 .img {
   margin-top: 20px;
   list-style: none;

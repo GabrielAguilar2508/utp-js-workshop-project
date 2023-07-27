@@ -1,0 +1,55 @@
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+}
+
+footer .container {
+  padding-top: 50px;
+}
+
+footer h2 {
+  margin: 2.5rem;
+}
+
+footer ul {
+  font-weight: 300;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+footer ul.campus-list { 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 3rem;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #fff6;
+}
+
+footer ul.campus-list li::before {
+  content: "•";
+  margin-right: 0.5rem;
+}
+
+footer .links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+footer ul.rrss {
+  display: flex;
+  gap: 1rem;
+  filter: invert(1);
+}
+
+footer ul.interlinks {
+  display: flex;
+  gap: 1rem;
+}
