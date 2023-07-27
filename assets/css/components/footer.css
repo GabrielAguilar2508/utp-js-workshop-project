@@ -17,6 +17,11 @@ footer ul {
   font-weight: 300;
 }
 
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .footer-section {
   display: flex;
   flex-direction: column;
