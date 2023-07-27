@@ -193,7 +193,7 @@ body {
   flex-wrap: wrap;
   gap: 2em;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: end;
 }
 
 .price__element {
